@@ -15,3 +15,6 @@ I neuroni che si trovano in strati adiacenti sono completamente collegati tra lo
 **`/Train Delay`**: Directory che contiene il dataset Train Delay e l'addestramento delle reti KAN  e MLP su questo dataset.
 
 **`requirements.txt`**: File contenente le dipendenze Python necessarie per eseguire il progetto, che possono essere installate con `pip`.
+
+# Link Utili
+**Libreria pykan**: [pykan Library]([https://www.tensorflow.org/api_docs](https://github.com/KindXiaoming/pykan))
