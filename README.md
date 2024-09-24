@@ -17,4 +17,4 @@ I neuroni che si trovano in strati adiacenti sono completamente collegati tra lo
 **`requirements.txt`**: File contenente le dipendenze Python necessarie per eseguire il progetto, che possono essere installate con `pip`.
 
 # Link Utili
-**Libreria pykan**: [pykan Library]([https://www.tensorflow.org/api_docs](https://github.com/KindXiaoming/pykan))
+**Libreria pykan**: [pykan Library](https://github.com/KindXiaoming/pykan)
