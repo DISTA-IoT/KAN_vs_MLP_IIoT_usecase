@@ -11,4 +11,5 @@ I neuroni che si trovano in strati adiacenti sono completamente collegati tra lo
 
 # Contenuti della Repository
 **`/Power Consuption`**: Directory che contiene il dataset PowerConsuption e l'addestramento delle reti KAN  e MLP su questo dataset.
+
 **`/Train Delay`**: Directory che contiene il dataset Train Delay e l'addestramento delle reti KAN  e MLP su questo dataset.
