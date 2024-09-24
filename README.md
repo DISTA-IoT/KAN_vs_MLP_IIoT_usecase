@@ -8,3 +8,7 @@ Una rete MLP è composta fondamentalmente da tre tipologie di layer: un input la
 I neuroni che si trovano in strati adiacenti sono completamente collegati tra loro. Ogni connessione ha un peso associato, che determina la forza della connessione. Un peso elevato significa una forte connessione, mentre un peso basso o negativo indica una connessione debole o inibitoria. 
 
 # Reti KAN
+
+# Contenuti della Repository
+**`/Power Consuption`**: Directory che contiene il dataset PowerConsuption e l'addestramento delle reti KAN  e MLP su questo dataset.
+**`/Train Delay`**: Directory che contiene il dataset Train Delay e l'addestramento delle reti KAN  e MLP su questo dataset.
