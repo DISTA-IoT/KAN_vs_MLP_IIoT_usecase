@@ -1,7 +1,7 @@
 # Reti Kolmogorov Arnold e Multilayer Perceptron: Un Confronto Sperimentale
 
-#Introduzione
+# Introduzione
 
-#Reti MLP
+# Reti MLP
 
-#Reti KAN
+# Reti KAN
