@@ -13,3 +13,5 @@ I neuroni che si trovano in strati adiacenti sono completamente collegati tra lo
 **`/Power Consuption`**: Directory che contiene il dataset PowerConsuption e l'addestramento delle reti KAN  e MLP su questo dataset.
 
 **`/Train Delay`**: Directory che contiene il dataset Train Delay e l'addestramento delle reti KAN  e MLP su questo dataset.
+
+**`requirements.txt`**: File contenente le dipendenze Python necessarie per eseguire il progetto, che possono essere installate con `pip`.
