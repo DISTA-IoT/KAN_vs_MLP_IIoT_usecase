@@ -8,6 +8,9 @@ Una rete MLP è composta fondamentalmente da tre tipologie di layer: un input la
 I neuroni che si trovano in strati adiacenti sono completamente collegati tra loro. Ogni connessione ha un peso associato, che determina la forza della connessione. Un peso elevato significa una forte connessione, mentre un peso basso o negativo indica una connessione debole o inibitoria. 
 
 # Reti KAN
+Le reti di Kolmogorov-Arnold (KAN) sono alternative promettenti ai percettori multistrato (MLP). Le reti KANs si basano sul teorema di rappresentazione di Kolmogorov-Arnold a differenza degli MLP che si basano su teorema si approssimazione universale.
+A differenze di quanto avviene negli MLP in un KAN, ogni parametro di peso è sostituito da una funzione univariata  parametrizzata come spline. Di conseguenza, le KAN non hanno pesi lineari. I nodi sommano poi i segnali in entrata senza applicare alcuna non-linearità.
+Questo cambiamento rende le KAN più interpretabili degli MLP.
 
 # Contenuti della Repository
 **`/Power Consuption`**: Directory che contiene il dataset PowerConsuption e l'addestramento delle reti KAN  e MLP su questo dataset.
