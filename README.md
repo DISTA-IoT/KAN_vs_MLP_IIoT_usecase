@@ -1,6 +1,7 @@
 # Reti Kolmogorov Arnold e Multilayer Perceptron: Un Confronto Sperimentale
 
 # Introduzione
+La ricerca di intelligenze artificiali più interpretabili e precise ha portato allo sviluppo delle Kolmogorov-Arnold Networks (KAN), che offrono un'alternativa agli MLP (Multi-Layer Perceptron). Le reti KAN si distinguono per una maggiore accuratezza e interpretabilità rispetto agli MLP, grazie all'uso di funzioni di attivazione apprendibili applicate ai pesi, anziché alle funzioni di attivazione tradizionali applicate ai neuroni nei modelli MLP.
 
 # Reti MLP
 Un MLP (Multilayer Perceptron) è una rete neurale feedforward che rappresenta una delle architetture di base nel deep learning. È progettato per apprendere funzioni non lineari complesse attraverso una serie di strati di neuroni completamente connessi.
