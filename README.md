@@ -22,3 +22,5 @@ Questo cambiamento rende le KAN più interpretabili degli MLP.
 
 # Link Utili
 **Libreria pykan**: [pykan Library](https://github.com/KindXiaoming/pykan)
+
+# Riassunto
