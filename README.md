@@ -42,7 +42,6 @@ In particolare, una delle principali limitazioni riscontrate è il tempo di adde
 Le reti Kolmogorov-Arnold rappresentano un promettente campo di ricerca per il futuro del machine learning, ma sarà necessario lavorare sull'ottimizzazione degli algoritmi e sull'esplorazione di nuove architetture per sfruttarne appieno il potenziale. 
 
 Le KAN offrono una nuova prospettiva per l'approssimazione di funzioni complesse, combinando interpretabilità ed efficienza, ma il loro successo dipenderà dalla capacità di superare le attuali limitazioni computazionali.
-![image](https://github.com/user-attachments/assets/9b9e0273-cd96-4f49-8045-692018d73a80)
 
 # Link Utili
 **Libreria pykan**: [pykan Library](https://github.com/KindXiaoming/pykan)
