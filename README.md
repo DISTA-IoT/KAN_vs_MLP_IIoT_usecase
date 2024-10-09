@@ -20,7 +20,30 @@ Questo cambiamento rende le KAN più interpretabili degli MLP.
 
 **`requirements.txt`**: File contenente le dipendenze Python necessarie per eseguire il progetto, che possono essere installate con `pip`.
 
+# Riassunto
+Negli ultimi anni, l'intelligenza artificiale e il machine learning hanno guadagnato una rilevanza crescente in vari settori, dalla medicina all'economia, dall'ingegneria alla scienza dei dati. Tra i modelli alla base delle moderne applicazioni di deep learning ci sono le Multi-Layer Perceptrons (MLPs), note anche come reti neurali feedforward completamente connesse. Le MLP sono un pilastro del machine learning per l’approssimazione di funzioni non lineari grazie al loro potere espressivo garantito dal teorema di approssimazione universale.
+
+Tuttavia, nonostante il loro ampio utilizzo, le MLP presentano alcuni svantaggi. Ad esempio nei transformers le MLP consumano quasi tutti i parametri non incorporati e sono generalmente meno interpretabili senza strumenti di post-analisi. Una promettente alternativa agli MLP sono le reti neurali Kolmogorov-Arnold Networks (KANs), che hanno anche loro strutture completamente connesse ma a differenza degli MLP si basano sul teorema di rappresentazione di Kolmogorov-Arnold.
+
+La sostanziale differenza tra i due modelli sono le funzioni di attivazione sui nodi, detti neuroni. Mentre le MLP utilizzano funzioni di attivazione fisse sui nodi nelle reti KAN ogni peso è sostituito da una funzione univariata apprendibile parametrizzata come un spline. I nodi KAN sommano poi i segnali in entrata senza applicare alcuna non linearità. 
+
+Le reti KAN sfruttano i punti di forza sia delle spline che degli MLP evitando i loro punti deboli. Le spline sono particolarmente efficaci per funzioni a bassa dimensionalità, adattandosi localmente con precisione, ma soffrono della cosiddetta "maledizione della dimensionalità" con l'aumento delle dimensioni dell'input. Le MLP, invece, sono più adatte a problemi ad alta dimensionalità, ma non ottimizzano efficacemente funzioni univariate, poiché le loro funzioni di attivazione sono globali e fisse.
+
+Le reti KAN combinano il meglio dei due approcci, consentendo di rappresentare accuratamente funzioni complesse grazie alla capacità delle spline di modellare funzioni univariate e alla potenza delle MLP di apprendere interazioni di caratteristiche complesse. Rispetto alle MLP, le KAN richiedono grafi di calcolo più piccoli e offrono una maggiore interpretabilità, rendendo più chiara la rappresentazione delle funzioni apprese.
+
+L'obiettivo di questa tesi è analizzare le reti Kolmogorov-Arnold e confrontarle con le tradizionali MLP. Durante l'analisi sono emerse evidenze che suggeriscono come le KAN possano rappresentare una promettente area di sviluppo nel machine learning, soprattutto per la loro capacità di approssimare funzioni multivariate complesse in modo più interpretabile rispetto alle MLP, che spesso operano come "scatole nere".
+
+Il codice fornito in questa tesi consente di sperimentare direttamente con le reti KAN, permettendo di esplorare le loro dinamiche e potenzialità attraverso prove pratiche e test su differenti configurazioni. 
+
+Tuttavia, nonostante i vantaggi teorici, rimangono sfide significative nell'implementazione pratica delle KAN, come il lungo tempo di addestramento rispetto alle MLP. Questo potrebbe limitarne l'adozione in contesti dove la rapidità è essenziale.
+
+In particolare, una delle principali limitazioni riscontrate è il tempo di addestramento significativamente più lungo rispetto a quello richiesto da un MLP, il che può rappresentare un ostacolo in contesti in cui sono necessari tempi di risposta rapidi e risultati immediati. Questo lungo processo di apprendimento può ridurre l'attrattiva delle KAN per applicazioni pratiche, dove l'efficienza e la velocità sono fondamentali.
+
+Le reti Kolmogorov-Arnold rappresentano un promettente campo di ricerca per il futuro del machine learning, ma sarà necessario lavorare sull'ottimizzazione degli algoritmi e sull'esplorazione di nuove architetture per sfruttarne appieno il potenziale. 
+
+Le KAN offrono una nuova prospettiva per l'approssimazione di funzioni complesse, combinando interpretabilità ed efficienza, ma il loro successo dipenderà dalla capacità di superare le attuali limitazioni computazionali.
+![image](https://github.com/user-attachments/assets/9b9e0273-cd96-4f49-8045-692018d73a80)
+
 # Link Utili
 **Libreria pykan**: [pykan Library](https://github.com/KindXiaoming/pykan)
 
-# Riassunto
